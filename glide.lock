@@ -1,0 +1,61 @@
+hash: eaa2ea71326863a3d982b97eaf30bd968cb432ffc7ead7ae4d0887cd87aac3fd
+updated: 2017-05-15T14:43:09.992144476+02:00
+imports:
+- name: github.com/alecthomas/units
+  version: 2efee857e7cfd4f3d0138cc3cbb1b4966962b93a
+- name: github.com/coreos/etcd
+  version: 7e6d876385396bf3ea8f1b58ab24b697a3d9f5d8
+  subpackages:
+  - client
+  - pkg/pathutil
+  - pkg/types
+  - version
+- name: github.com/coreos/go-semver
+  version: 8ab6407b697782a06568d4b7f1db25550ec2e4c6
+  subpackages:
+  - semver
+- name: github.com/coreos/ignition
+  version: 4e26b268eabaaa746c42418084e3169d9d3d87a5
+  subpackages:
+  - config/types
+- name: github.com/giantswarm/mayu
+  version: 41f805ade7d32f221410d2d6119ae6709910b908
+  subpackages:
+  - client
+  - error
+  - hostmgr
+  - httputil
+  - infopusher/machinedata
+  - logging
+  - pxemgr
+- name: github.com/golang/glog
+  version: 44145f04b68cf362d9c4df2182967c2275eaefed
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/handlers
+  version: 3a5767ca75ece5f7f1440b1d16975247f8d8b221
+- name: github.com/gorilla/mux
+  version: 392c28fe23e1c45ddba891b0320b3b5df220beea
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/joho/godotenv
+  version: 726cc8b906e3d31c70a9671c90a13716a8d3f50d
+- name: github.com/juju/errgo
+  version: 08cceb5d0b5331634b9826762a8fd53b29b86ad8
+- name: github.com/ryanuber/columnize
+  version: 983d3a5fab1bf04d1b412465d2d9f8430e2e917e
+- name: github.com/spf13/cobra
+  version: 65a708cee0a4424f4e353d031ce440643e312f92
+- name: github.com/spf13/pflag
+  version: 7f60f83a2c81bc3c3c0d5297f61ddfa68da9d3b7
+- name: github.com/ugorji/go
+  version: 98ef79d6c615fa258e892ed0b11c6e013712693e
+  subpackages:
+  - codec
+- name: golang.org/x/net
+  version: fb93926129b8ec0056f2f458b1f519654814edf0
+  subpackages:
+  - context
+- name: gopkg.in/yaml.v2
+  version: f7716cbe52baa25d2e9b0d0da546fcf909fc16b4
+testImports: []

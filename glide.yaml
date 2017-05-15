@@ -1,0 +1,10 @@
+package: github.com/giantswarm/mayuctl
+import:
+- package: github.com/giantswarm/mayu
+  subpackages:
+  - client
+  - hostmgr
+  - pxemgr
+- package: github.com/joho/godotenv
+- package: github.com/ryanuber/columnize
+- package: github.com/spf13/cobra
