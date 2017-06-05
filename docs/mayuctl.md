@@ -75,7 +75,7 @@ Profile:             core
 DisableEngine:       false
 State:               "running"
 Metadata:            role-core=true
-CoreOS:              835.13.0
+Container Linux:     835.13.0
 Mayu:                0.8.0
 Yochu:               0.19.1
 Docker:              1.10.3
